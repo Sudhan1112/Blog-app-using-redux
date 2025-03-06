@@ -5,6 +5,7 @@ import { updateText, selectText } from '../redux/textSlice';
 function TextInput() {
   // useDispatch returns a function that lets us dispatch actions
   const dispatch = useDispatch();
+  
   // useSelector allows us to extract data from the Redux store state
   const currentText = useSelector(selectText);
 
