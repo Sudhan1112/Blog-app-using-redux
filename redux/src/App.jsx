@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './redux/store';
-import TextInput from './components/Textinput';
+import TextInput from './components/textInput';
 import SavedTexts from './components/SavedTexts';
 
 function App() {
